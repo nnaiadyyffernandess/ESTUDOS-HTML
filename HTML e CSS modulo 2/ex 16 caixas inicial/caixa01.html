@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de caixa</title>
+
+<style>
+    h1{
+        height : 300px;
+        width : 300px;
+        background-color : lightblue;
+
+      display: inline; /* o elemento se comporta como um bloco, mas fica na mesma linha que outros elementos */
+
+        border: 10px solid black; /* a borda é do padding para fora, e a ordem é: largura, estilo e cor */
+
+
+        padding: 10px 10px 10 px 10px; /* a ordem é: padding-top, padding-right, padding-bottom e padding-left */
+
+
+        margin: 20px auto 40px auto; /* a ordem é: margin-top, margin-right, margin-bottom e margin-left. O auto centraliza o elemento horizontalmente */
+
+        outline: 5px dashed black; /* a ordem é: largura, estilo e cor */
+    }
+
+    a{
+        border-width: 5px;
+        border-style: dashed;
+        border-color: black;
+        display: block; /* o elemento se comporta como um bloco, ou seja, ocupa toda a largura disponível e começa em uma nova linha */
+    }
+</style>
+
+</head>
+<body>
+    <h1>Exemplo de caixa box level</h1>
+    <p>Parágrafos também são exemplos de box level, mas os <a href="#">links</a> são exemplos de inline level. Vamos ver como tudo isso funciona.</p>
+</body>
+</html>

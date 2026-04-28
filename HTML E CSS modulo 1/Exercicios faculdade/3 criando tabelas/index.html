@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criando Tabelas</title>
+</head>
+<body>
+    <h2>Tabela simples</h2>
+    <table >
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Cidade</th>
+        </tr>
+        <tr>
+            <td>Ana</td>
+            <td>28</td>
+            <td>São Paulo</td>
+        </tr>
+        <tr>
+            <td>Bruno</td>
+            <td>34</td>
+            <td>Rio de Janeiro</td>
+        </tr>
+        <tr>
+            <td>Carla</td>
+            <td>25</td>
+            <td>Belo Horizonte</td>
+        </tr>
+    </table>
+
+        <h2> Tabela com Título</h2>
+    <table width="100%" border="1">
+        <caption>Informações Pessoais</caption>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Cidade</th>
+        </tr>
+        <tr>
+            <td>Daniel</td>
+            <td>30</td>
+            <td>Curitiba</td>
+        </tr>   
+        <tr>
+            <td>Elisa</td>
+            <td>27</td>
+            <td>Salvador</td>
+        </tr>
+    </table>
+
+        <h2> Tabela com cabeçalho e rodapé 1</h2>
+        <table width="100%" border="1">
+        <thead>
+            <tr>
+                <th>Produto</th>
+                <th>Preço</th>
+                <th>Quantidade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Produto A</td>
+                <td>R$ 10,00</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>Produto B</td>
+                <td>R$ 20,00</td>
+                <td>3</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Total</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td colspan="2">Valor Total</td>
+                <td>R$ 110,00</td>
+            </tr>
+
+        </tfoot>
+
+        </table>
+
+        <h2>Tabela com cabeçalho e rodapé</h2>
+        <table width="100%" border="1">
+        <thead>
+            <tr>
+                <th>Mês</th>
+                <th>Horas/aula</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Jan</td>
+                <td>40</td>
+            </tr>
+            <tr>
+                <td>Fev</td>
+                <td>30</td>
+            </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th>
+                        Total
+                    </th>
+                    <th>
+                        70
+                </tr>
+            </tfoot>
+        </table>
+
+        <h2> Tabela com Colspan</h2>
+        <table width="100%" border="1"> 
+            <tr>
+                <td> Aluno</td>
+                <td colspan="2"> Disciplina</td>
+            </tr>
+            <tr>
+                <td> Marcos</td>
+                <td> HTML</td>
+                <td> Ambiente web</td>
+        </table>
+
+        <h2>Tabela com rowspan</h2>
+        <table width="100%" border="1">
+            <tr>
+                <td>Aluno</td>
+                <td colspan="2">Disciplina</td>
+            </tr>
+
+            <tr>
+                <td>Alex</td>
+                <td>HTML</td>
+                <td>Ambiente web</td>
+            </tr>
+            </table>
+</body>
+</html>
